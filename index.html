@@ -6,7 +6,7 @@
     <title>CSS Memes Slider</title>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="icon" href="./images/favicon/favicon.ico">
+    <link rel="icon" href="/assets/favicon/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="CSS Memes Slider">
     <meta name="keywords" content="CSS Memes Slider">
@@ -20,38 +20,66 @@
     </header>
     <section class="slider">
         <div class="slider-content">
+            <input type="radio" name="items" id="radio1" checked>
+            <input type="radio" name="items" id="radio2">
+            <input type="radio" name="items" id="radio3">
+            <input type="radio" name="items" id="radio4">
             <ul class="slider-image-wrapper">
-                <li>
+                <li id="item1">
                     <figure class="slider-image-item">
-                        <img src="./assets/images/gendalf-mem.png" alt="gendalf-mem">
-                        <figcaption>Gendalf mem</figcaption>
+                        <img class="slider-image-item-image" src="./assets/images/gendalf-mem.png" alt="gendalf-mem">
+                        <figcaption class="slider-image-item-text">Gendalf mem</figcaption>
                     </figure>
                 </li>
-                <li>
+                <li id="item2">
                     <figure class="slider-image-item">
-                        <img src="./assets/images/mobil-mem.png" alt="mobil-mem">
-                        <figcaption>Mobile mem</figcaption>
+                        <img class="slider-image-item-image" src="./assets/images/mobil-mem.png" alt="mobil-mem">
+                        <figcaption class="slider-image-item-text">Mobile mem</figcaption>
                     </figure>
                 </li>
-                <li>
+                <li id="item3">
                     <figure class="slider-image-item">
-                        <img src="./assets/images/bob-mem.png" alt="bob-mem">
-                        <figcaption>Bob mem</figcaption>
+                        <img class="slider-image-item-image" src="./assets/images/bob-mem.png" alt="bob-mem">
+                        <figcaption class="slider-image-item-text">Bob mem</figcaption>
                     </figure>
                 </li>
-                <li>
+                <li id="item4">
                     <figure class="slider-image-item">
-                        <img src="./assets/images/diet-mem.png" alt="diet-mem">
-                        <figcaption>Diet mem</figcaption>
+                        <img class="slider-image-item-image" src="./assets/images/diet-mem.png" alt="diet-mem">
+                        <figcaption class="slider-image-item-text">Diet mem</figcaption>
                     </figure>
                 </li>
             </ul>
             <nav class="slider-nav-wrapper">
                 <ul class="slider-nav-list">
-                    <li class="slider-nav-list-item"><div>1</div></li>
-                    <li class="slider-nav-list-item"><div>1</div></li>
-                    <li class="slider-nav-list-item"><div>1</div></li>
-                    <li class="slider-nav-list-item"><div>1</div></li>
+                    <li class="slider-nav-list-item">
+                        <label class="container" for="radio1">
+                            <span class="checkmark">
+                                <span class="checkmark-inner-bullet"></span>
+                            </span>
+                        </label>
+                    </li>
+                    <li class="slider-nav-list-item">
+                        <label class="container" for="radio2">
+                            <span class="checkmark">
+                                <span class="checkmark-inner-bullet"></span>
+                            </span>
+                        </label>
+                    </li>
+                    <li class="slider-nav-list-item">
+                        <label class="container" for="radio3">
+                            <span class="checkmark">
+                                <span class="checkmark-inner-bullet"></span>
+                            </span>
+                        </label>
+                    </li>
+                    <li class="slider-nav-list-item">
+                        <label class="container" for="radio4">
+                            <span class="checkmark">
+                                <span class="checkmark-inner-bullet"></span>
+                            </span>
+                        </label>
+                    </li>
                 </ul>
             </nav>
         </div>
