@@ -168,7 +168,7 @@ input[type="radio"]#radio4:checked~.slider-image-wrapper li:nth-child(1) {
 	box-shadow: 0.0625em 0.125em 0.125em 0em var(--black-light) inset;
 }
 
-@media screen and (max-width: 1027px) {
+@media screen and (max-width: 1023px) {
 	.slider-content {
 		width: 80vw;
 	}
